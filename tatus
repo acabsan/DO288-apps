@@ -1,0 +1,821 @@
+[33mcommit 1afd44184febe5625264a80c4515f9e5ead45148[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/docker-build[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mdocker-build[m[33m)[m
+Author: Eduardo Ramirez <42619854+ebramirez@users.noreply.github.com>
+Date:   Wed Aug 4 17:56:40 2021 +0200
+
+    Move jkube proposal comment (#157)
+    
+    Signed-off-by: Eduardo Ramirez <eramirez@redhat.com>
+
+[33mcommit 9006730c665b7e4d7473006bdfd4da34a9f6126f[m
+Merge: 9ac3d08 3fc62e5
+Author: Richard Allred <rallred@redhat.com>
+Date:   Wed Jul 14 16:38:50 2021 -0400
+
+    Merge pull request #141 from RedHatTraining/container-build_to_use_Conteinerfile
+    
+    Container build to use conteinerfile
+
+[33mcommit 9ac3d08fa726c43d47ec95c495dd5fc04e4f79b8[m
+Author: Marek Czernek <mczernek@redhat.com>
+Date:   Tue Jul 6 03:19:35 2021 -0400
+
+    feat(ch07s02): Add readiness probe switch (#152)
+
+[33mcommit 237c9e14fea8eb90f3329908db8da080418fcdaf[m
+Merge: 03b5cad 9b251ca
+Author: Manuel Aude Morales <56172711+maudemor@users.noreply.github.com>
+Date:   Mon Jul 5 22:40:46 2021 -0500
+
+    Merge pull request #148 from RedHatTraining/maudemor/ch08-pilot-fixes
+    
+    ch08 Pilot fixes
+
+[33mcommit 03b5cad3dcd8e30dbfe3736ea4e0d92b86db5c6c[m
+Merge: 577bdfb ffd58e3
+Author: Manuel Aude Morales <56172711+maudemor@users.noreply.github.com>
+Date:   Mon Jul 5 22:40:34 2021 -0500
+
+    Merge pull request #149 from RedHatTraining/maudemor/todo-api-new
+    
+    New todo-api application.
+
+[33mcommit ffd58e34e7468ae5205fd0350bedcc86c0166918[m
+Author: Manuel Aude Morales <maudemor@redhat.com>
+Date:   Fri Jul 2 00:26:55 2021 -0500
+
+    Added the todo-api quarkus application.
+
+[33mcommit 9b251cab9fd08fb3721284b64b4bf1fa1c9d4ac9[m
+Author: Manuel Aude Morales <maudemor@redhat.com>
+Date:   Thu Jul 1 23:04:21 2021 -0500
+
+    Added new Quarkus application todo-api. Same functionality as todo-api-micro but code is much simpler, which should help in case the student wants to analyze.
+
+[33mcommit 577bdfb1d68204f6ead011ea97055edb007ecbe1[m
+Author: Guy Bianco IV <gjbiancoiv@gmail.com>
+Date:   Thu Jul 1 15:39:50 2021 -0400
+
+    comp review todo app update (#146)
+    
+    * new todo frontend
+    
+    * yarn --> npm
+    
+    * basic Dockerfile
+    
+    * add Helm chart for todo list
+    
+    * backend working
+    
+    * connect new-app'd frontend to backend via proxy_pass
+    
+    * move nginx conf
+    
+    * move nginx conf back
+    
+    * move helm chart to course repo
+    
+    * add simple SSR node.js service
+    
+    * log error message
+    
+    * fix host typo
+    
+    * fix dockerfiles
+    
+    * add link to items page
+    
+    * improve probe route for todo-backend
+    
+    * canary probe route for todo-backend
+    
+    * Dockerfile -> Containerfile todo-backend
+    
+    * Dockerfile -> Containerfile todo-frontend
+    
+    * remove commands for containerfile as part of comp review
+
+[33mcommit cc5b47b426691e05eaceb6e1da4c28b5abef4a21[m
+Author: Manuel Aude Morales <maudemor@redhat.com>
+Date:   Tue Jun 29 08:11:47 2021 -0500
+
+    Adding comments to pom.xml file to indicate where are the changes required.
+
+[33mcommit 0ce74443fca07680393a67245f2e9d4063e804ba[m
+Author: Randy Thomas <althomas@redhat.com>
+Date:   Tue Jun 22 08:12:56 2021 -0500
+
+    Renamed Dockerfile to Containerfile
+
+[33mcommit 3fc62e50880f10a322439784e160998a6ebc9984[m[33m ([m[1;31morigin/container-build_to_use_Conteinerfile[m[33m)[m
+Author: Randy Thomas <althomas@redhat.com>
+Date:   Fri Jun 18 01:04:23 2021 -0500
+
+    File name changed only
+
+[33mcommit ee11b283380fbc92a1b4613c3cb3796105309a0c[m
+Merge: a22ab50 df939f7
+Author: Guy Bianco IV <gjbiancoiv@gmail.com>
+Date:   Tue Jun 15 12:12:24 2021 -0400
+
+    Merge pull request #140 from RedHatTraining/gbianco/todo-frontend-rewrite
+    
+    todo frontend rewrite
+
+[33mcommit a22ab5004d8d384ebd6fabfeec1007165f0f6e5b[m
+Merge: 0a34bc1 9b8f248
+Author: Guy Bianco IV <gjbiancoiv@gmail.com>
+Date:   Tue Jun 15 10:27:15 2021 -0400
+
+    Merge pull request #134 from RedHatTraining/gbianco/todo-backend-rewrite
+    
+    new todo-backend
+
+[33mcommit 0a34bc1584e1f0fb7c5c4273762c86b8ce51745a[m
+Merge: 48ab800 4c10963
+Author: Manuel Aude Morales <56172711+maudemor@users.noreply.github.com>
+Date:   Fri Jun 4 03:43:00 2021 -0500
+
+    Merge pull request #138 from RedHatTraining/maudemor/nexus3-update
+    
+    Updated Dockerfile for new desired values.
+
+[33mcommit 48ab8007c78c535265049b916761c899d0f99862[m
+Merge: 20d7733 f854f3e
+Author: Manuel Aude Morales <56172711+maudemor@users.noreply.github.com>
+Date:   Fri Jun 4 00:28:18 2021 -0500
+
+    Merge pull request #128 from RedHatTraining/maudemor/base-micro-java
+    
+    Maudemor/micro-java new version.
+
+[33mcommit 4c109632679a90b620909123574dfa27c7311946[m
+Author: Manuel Aude Morales <maudemor@redhat.com>
+Date:   Thu Jun 3 03:25:01 2021 -0500
+
+    Updated Dockerfile for new desired values.
+
+[33mcommit f854f3ee70040b02e33c93c42520ec2b6c77640d[m[33m ([m[1;31morigin/maudemor/base-micro-java[m[33m)[m
+Author: Manuel Aude Morales <maudemor@redhat.com>
+Date:   Tue May 25 06:48:02 2021 -0500
+
+    Removed configuration to be added by student during the activity.
+
+[33mcommit 9b8f2481215f31c1a5799b3d53c3c8582e47f059[m[33m ([m[1;31morigin/gbianco/todo-backend-rewrite[m[33m)[m
+Author: Guy Bianco IV <gjbiancoiv@gmail.com>
+Date:   Fri May 21 11:55:19 2021 -0400
+
+    basic Dockerfile
+
+[33mcommit df939f781fa0a1ba8f6d09067e9fa5ce61ca3026[m[33m ([m[1;31morigin/gbianco/todo-frontend-rewrite[m[33m)[m
+Author: Guy Bianco IV <gjbiancoiv@gmail.com>
+Date:   Fri May 21 11:51:51 2021 -0400
+
+    basic Dockerfile
+
+[33mcommit 6af1de04313df35b7f8f723cae911620db1dbf7d[m
+Author: Manuel Aude Morales <maudemor@redhat.com>
+Date:   Thu May 20 06:22:19 2021 -0500
+
+    Applied version changes to micro-java app, as well as updated deployment file to use the specific version.
+
+[33mcommit 491a5672f250a0051a0a18572b9ae6cdf8b1e060[m
+Author: Guy Bianco IV <gjbiancoiv@gmail.com>
+Date:   Wed May 19 13:22:06 2021 -0400
+
+    yarn --> npm
+
+[33mcommit f8735da820d129071fb3063c1dc58e0d1d17ac8f[m
+Author: Guy Bianco IV <gjbiancoiv@gmail.com>
+Date:   Wed May 19 13:18:48 2021 -0400
+
+    new todo frontend
+
+[33mcommit 0bc1c87ddaf861ab654aeb5a4939efbcdd5f9e4e[m
+Author: Guy Bianco IV <gjbiancoiv@gmail.com>
+Date:   Wed May 19 12:50:48 2021 -0400
+
+    new todo-backend
+
+[33mcommit dbc0d2d8ef9eded76dcbc78435172f075dd05c60[m
+Author: Manuel Aude Morales <maudemor@redhat.com>
+Date:   Fri May 7 07:28:19 2021 -0500
+
+    Change to use YAML file for the ConfigMap.
+
+[33mcommit 408c9919b1ecae66a5872c4e920fe3c949bc71cd[m
+Author: Manuel Aude Morales <maudemor@redhat.com>
+Date:   Fri May 7 06:51:34 2021 -0500
+
+    Fix file mess. Update micro-java endpoints, test, deployment file and pom.
+
+[33mcommit 98139f4401301bada10317bfb55652b5f929abe4[m
+Author: Manuel Aude Morales <maudemor@redhat.com>
+Date:   Fri May 7 04:21:31 2021 -0500
+
+    Fix name.
+
+[33mcommit 7ec6c4616f948babc8c8e7626bd1432ae3bf254a[m
+Author: Manuel Aude Morales <maudemor@redhat.com>
+Date:   Fri May 7 04:12:24 2021 -0500
+
+    Ignore vs code from root directory.
+
+[33mcommit 3c429abb4fc2ed4917b5c1aa01854b6430157e2c[m
+Author: Manuel Aude Morales <maudemor@redhat.com>
+Date:   Fri May 7 04:10:51 2021 -0500
+
+    Ignore vs codium and more mvn files.
+
+[33mcommit 60556228fb40d3f3261903a29dbc20788cae02f5[m
+Author: Manuel Aude Morales <maudemor@redhat.com>
+Date:   Fri May 7 04:09:05 2021 -0500
+
+    Ignore more files.
+
+[33mcommit a412c5b5694b0d49238a2f48cad7d6bd3c0d7bec[m
+Author: Manuel Aude Morales <maudemor@redhat.com>
+Date:   Fri May 7 04:08:27 2021 -0500
+
+    Adding gitignore for project.
+
+[33mcommit 20d773370efdfce3221f56348ba2c544558a58a3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/manage-builds[m[33m, [m[1;31morigin/app-config[m[33m)[m
+Author: Marek Czernek <mczernek@redhat.com>
+Date:   Tue Jul 28 16:04:10 2020 +0200
+
+    fix: Add a missing license file for the repository (#48)
+    
+    * Create LICENSE
+    
+    * Update LICENSE
+
+[33mcommit d3b6fa27b03665eae8915137a621fbb516be84f4[m
+Merge: 648a2b1 5454ebd
+Author: Marek Czernek <mczernek@redhat.com>
+Date:   Tue Feb 18 14:21:22 2020 +0100
+
+    Merge pull request #16 from joetatrh/fix-lab-ch10-s03
+    
+    fix(ch10s03): Update restify version for todo-backend app
+
+[33mcommit 5454ebd40162281f44297db22ad16d3589553913[m
+Author: git name <invalid@invalid.tld>
+Date:   Wed Jan 22 10:47:17 2020 -0500
+
+    bugfix: do288 (OCP 4.2) lab ch10s03: todo-backend
+    
+    The "todo-backend" application fails to start in the current
+    version of the do288 OCP 4.2 course, which prevents completion
+    of the lab "Containerizing and Deploying a Service" in chapter
+    10, section 3.
+    
+    This "todo-backend" application's "package.json" file appears to
+    have been copied from a previous lab ("todo-single"), but the
+    version number of the "restify" depdency has been transposed from
+    "4.3.0" (working) to "4.0.3" (broken).
+    
+    This commit enables this lab to be completed successfully.
+
+[33mcommit 648a2b1d8425e572d93f16467ffc9a880ba1b0c1[m
+Merge: 27de9ef 5decd03
+Author: Eduardo Ramirez <42619854+ebramirez@users.noreply.github.com>
+Date:   Tue Dec 3 15:45:02 2019 +0100
+
+    Update restify to 4.3.0 (#5)
+    
+    Update restify to 4.3.0
+
+[33mcommit 5decd03995bdce0fc6f192ccd39ca099e6c39fa9[m
+Author: Eduardo Ramirez <42619854+ebramirez@users.noreply.github.com>
+Date:   Wed Nov 27 00:12:03 2019 +0100
+
+    Update restify to 4.3.0
+
+[33mcommit 27de9efbe220c3e9b48e04014b11eeb4484f28ce[m
+Author: Student User <student@workstation.lab.example.com>
+Date:   Thu Aug 8 14:46:15 2019 +0000
+
+    Reverted changes to the Dockerfile, fix to env is done by the dc
+
+[33mcommit 9f231c9ba904453e0e87b89c7021b4231a806724[m
+Author: Student User <student@workstation.lab.example.com>
+Date:   Wed Aug 7 23:47:39 2019 +0000
+
+    Adding explicit tag to FROM
+
+[33mcommit 7be4a5f7fc140d1495e739d8a02107879f2b9647[m
+Author: Student User <student@workstation.lab.example.com>
+Date:   Wed Aug 7 23:31:55 2019 +0000
+
+    Removing JVM heap options
+
+[33mcommit a70b16962135d3c7524bdf7d46f6ce28ac1e8a42[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Tue Aug 6 08:06:13 2019 -0400
+
+    Added a README.md for curious students
+
+[33mcommit 308b57b7a031c2dc7575e87eefda67c1852c6f06[m
+Merge: 99e7349 576cbfb
+Author: Dan K <dk14142@gmail.com>
+Date:   Mon Aug 5 21:08:58 2019 -0400
+
+    Merge branch 'dkolepp/nexus3'
+
+[33mcommit 576cbfb69a65bc41386ae326236dae9abce76d94[m[33m ([m[1;31morigin/dkolepp/nexus3[m[33m)[m
+Merge: 411e81e 2f2b2ec
+Author: Dan K <dk14142@gmail.com>
+Date:   Mon Aug 5 20:36:02 2019 -0400
+
+    Merge branch 'dkolepp/nexus3' of github.com:RedHatTraining/DO288-apps into dkolepp/nexus3
+
+[33mcommit 411e81e8a80281aba2bb167abed453ac6367d7f1[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Mon Aug 5 20:33:05 2019 -0400
+
+    feat(9,4):update files for Nexus application image
+
+[33mcommit 2f2b2ecef98b569b745acd8aa61c3ad2b89fe75d[m
+Author: Student User <student@workstation.lab.example.com>
+Date:   Mon Aug 5 15:42:18 2019 +0000
+
+    add Docker build file
+
+[33mcommit eb776d87763ac92966562f5bba8ed6d28bc5accd[m
+Author: Student User <student@workstation.lab.example.com>
+Date:   Mon Aug 5 15:41:37 2019 +0000
+
+    smaller repo
+
+[33mcommit ac6169db7b90e950156a87d9784308429ce3bee2[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Sun Aug 4 08:26:17 2019 -0400
+
+    feat: add initial Nexus3 files
+
+[33mcommit 99e73490b45f1f76040216418afeec9ff9770e57[m
+Merge: 6f4e126 e5e3675
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Sat Aug 3 16:44:06 2019 -0400
+
+    Merge branch 'master' of github.com:RedHatTraining/DO288-apps
+
+[33mcommit 6f4e1265cd110f04ab42b17c720667dcf2c0ce01[m
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Sat Aug 3 16:43:56 2019 -0400
+
+    update to use exec
+
+[33mcommit e5e3675bebd2a6fbb5b5ffaf4403c4039b25a5ea[m
+Author: Student User <student@workstation.lab.example.com>
+Date:   Fri Aug 2 19:48:17 2019 +0000
+
+    add sample for ch10s03 lab
+
+[33mcommit c2f929499e3eace093814a579a828ae99c7819f9[m
+Author: Student User <student@workstation.lab.example.com>
+Date:   Fri Aug 2 13:51:29 2019 +0000
+
+    replace ADD with COPY to follow best practices
+
+[33mcommit 9d0d654cac876f6ecbebfcbb4629173279cd0b1a[m
+Author: Student User <student@workstation.lab.example.com>
+Date:   Thu Aug 1 21:29:48 2019 +0000
+
+    formatting Dockerfile for shorter lines
+
+[33mcommit f6dd9c426795696c6b1ba779a87e4e5b1f774836[m
+Author: Student User <student@workstation.lab.example.com>
+Date:   Thu Aug 1 21:23:57 2019 +0000
+
+    updated to UBI and get backend host from env
+
+[33mcommit 64e5c44acdffa8568426214200ccc16f5bff2224[m
+Merge: fea7be4 a0872a3
+Author: Dan K <dk14142@gmail.com>
+Date:   Wed Jul 24 12:14:06 2019 -0400
+
+    Merge branch 'master' of github.com:RedHatTraining/DO288-apps
+
+[33mcommit fea7be45191452e1c0647cb1631246b4273d4247[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Wed Jul 24 12:13:32 2019 -0400
+
+    feat(ch9lab): add placeholder fragment directory
+
+[33mcommit a0872a3849cde8043ed02c2e4a0487163da27562[m
+Merge: 8b6479a 137aecb
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Wed Jul 24 07:35:05 2019 -0400
+
+    Merge branch 'master' of github.com:RedHatTraining/DO288-apps
+
+[33mcommit 8b6479a023e36d68786c19d2b0bb2cb3266b0bab[m
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Wed Jul 24 07:34:57 2019 -0400
+
+    Adding php-scale app for ch07 lab
+
+[33mcommit 137aecb997bb7263194c9acee2bff310a0cf17bf[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Mon Jul 22 21:58:46 2019 -0400
+
+    WIP(ch9lab): update mysql jdbc version in pom.xml
+
+[33mcommit 16a11f2775b6ab759e3cce2fb4f4b12c5c88f76a[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Mon Jul 22 16:10:39 2019 -0400
+
+    WIP(ch9lab) fix pom.xml dependencies
+
+[33mcommit c1c73e323723213f0636b45c0d83be2046335d4e[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Mon Jul 22 16:04:38 2019 -0400
+
+    WIP(ch9lab) update POM dependencies
+
+[33mcommit 81fbcfc2409f885dd8405042b05d272d4eb629e5[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Mon Jul 22 15:38:35 2019 -0400
+
+    WIP(ch9lab) add source for java-based todo-api app
+
+[33mcommit c37d409c1d8ca28f3fbe38ee32415a226b5a8db4[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Fri Jul 19 16:42:26 2019 -0400
+
+    fix(ch4s4): correct syntax error
+
+[33mcommit 2c450b33f4c68e5800eb2eac01f5442fe294b5c5[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Fri Jul 19 16:25:45 2019 -0400
+
+    fix(ch4s4): refactor java source for SG read ease
+
+[33mcommit a4c63d7a84035eb43cccebc5ca75a825bb4b2ef6[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Fri Jul 19 13:41:15 2019 -0400
+
+    fix(ch9s6): add placeholder directory
+
+[33mcommit 9c1fe679d71c877c43d506c8e25392ec2d28a5a8[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Fri Jul 19 13:38:59 2019 -0400
+
+    fix(ch9s6): remove YAML fragments
+
+[33mcommit f9e42817fafbb28b602b0a5873dbd90459a8a81f[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Fri Jul 19 12:10:29 2019 -0400
+
+    fix(micro-java): add newline char to output str
+
+[33mcommit 1dc1e7e1dd3fcfdf784c0bb62c330bc32c54b84d[m
+Merge: ef8c52b 9963c0b
+Author: Dan K <dk14142@gmail.com>
+Date:   Fri Jul 19 10:02:04 2019 -0400
+
+    Merge branch 'dkolepp/ch9s6'
+    feat(ch9s6): add micro-java project
+
+[33mcommit 9963c0bd49817821ec545e3cb1d936f70552ee88[m[33m ([m[1;31morigin/dkolepp/ch9s6[m[33m)[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Fri Jul 19 10:00:48 2019 -0400
+
+    style(micro-java): fix pom.xml whitespace
+
+[33mcommit 213f25767057aeb33fa6d900e69f26c6675e1bd3[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Tue Jul 16 16:34:24 2019 -0400
+
+    WIP:feat(ch9s6): add custom dc and cm resources
+    
+    Use the fabric8 plugin to add a custom deployment config and config
+    map as part of the deployment to OpenShift.
+
+[33mcommit eaf20b0fe63d0edae705cc260524c13044e66301[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Tue Jul 16 15:46:12 2019 -0400
+
+    WIP:fix(ch9s6): add braces for if block
+
+[33mcommit 4fcb06042fc64f09921c92cb63161de450867f6a[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Tue Jul 16 15:24:45 2019 -0400
+
+    WIP:feat(ch9s6): remove YAML fragments
+    
+    The YAML fragments are wrong, and are causing issues when deployed.
+    The "Zero Config" option with fabric8 works well.
+
+[33mcommit 698457ac05ca34aff02b1e7fc83c542540e3f9f2[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Tue Jul 16 14:31:01 2019 -0400
+
+    WIP(ch9s6): update current code
+
+[33mcommit ef8c52b4d826d47e933ca9f1f1f799449eeb9af8[m
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Tue Jul 16 08:45:30 2019 -0400
+
+    adding quip app
+
+[33mcommit 6e57953cdcd6d4da269b4bf5c9c9a96fa9ad07ca[m
+Author: Dan K <dk14142@gmail.com>
+Date:   Tue Jul 16 07:13:48 2019 -0400
+
+    WIP:feat(ch9s6): add initial code for GE
+    
+    The "mvn fabric8:deploy" command still does not work, mostly because
+    it seems that the deployed "service" contains selectors for labels
+    that are not present on the associated Pod.
+
+[33mcommit 00990345b6f3dc53a80ac968f3f03346e7bb7fd8[m
+Author: Ivan Chavero <ichavero@chavero.com.mx>
+Date:   Tue Jul 16 01:25:16 2019 -0500
+
+    ch07s02 add application for GE
+
+[33mcommit 4463a8bae21fcee87956494abc3f8b02ff4dab67[m
+Author: Ivan Chavero <ichavero@chavero.com.mx>
+Date:   Mon Jul 15 14:57:04 2019 -0500
+
+    ch04s09 Add build-app project for lab
+
+[33mcommit 702686c81d03ca518d1de9b5932235a55797fcf3[m
+Author: Ravi Srinivasan <rsriniva@redhat.com>
+Date:   Mon Jul 15 17:28:37 2019 +0530
+
+    Minor fix to Jenkinsfile for Ch8 EoC Lab
+
+[33mcommit fe9006dcadfc00605f012d2bc5492132c436c50c[m
+Author: Ravi Srinivasan <rsriniva@redhat.com>
+Date:   Fri Jul 12 12:55:16 2019 +0530
+
+    Added movies microservice for Ch 8 EoC Lab
+
+[33mcommit 2aa4b3aa529163a93565d8b56a8060fa9d6b2f48[m
+Author: Ravi Srinivasan <rsriniva@users.noreply.github.com>
+Date:   Thu Jul 4 11:20:11 2019 +0530
+
+    increased jenkins pipeline timeout value
+
+[33mcommit e86f9e22ebaad7584753dc99da505c8782d20e71[m
+Author: Ivan Chavero <ichavero@chavero.com.mx>
+Date:   Wed Jul 3 18:13:40 2019 -0500
+
+    ch04s06 Project needed for the GE
+
+[33mcommit 1af3be056cb18d0c56877222b55a93aced4cc1e2[m
+Author: Ravi Srinivasan <rsriniva@redhat.com>
+Date:   Wed Jul 3 18:42:27 2019 +0530
+
+    Minor fix to unit test
+
+[33mcommit 8faae187b2f4c093c6a1d35df213a5907c8b7290[m
+Merge: 2ca6c30 d235781
+Author: Ravi Srinivasan <rsriniva@redhat.com>
+Date:   Wed Jul 3 18:40:49 2019 +0530
+
+    Merge branch 'master' of github.com:RedHatTraining/DO288-apps
+
+[33mcommit 2ca6c30d94f675a75a57e8dc6c820ef6ff5bc3c7[m
+Author: Ravi Srinivasan <rsriniva@redhat.com>
+Date:   Wed Jul 3 18:40:36 2019 +0530
+
+    Fixes after author test
+
+[33mcommit d2357812f0a7face0b27a937ed31a9db5c37e30c[m
+Author: Ravi Srinivasan <rsriniva@users.noreply.github.com>
+Date:   Wed Jul 3 10:51:18 2019 +0530
+
+    introducing lint breakage in the books app
+
+[33mcommit ccd7badf5d40b415f7072185eb10aaacafc7152e[m
+Author: Ravi Srinivasan <rsriniva@users.noreply.github.com>
+Date:   Wed Jul 3 10:50:05 2019 +0530
+
+    Introducing broken unit test
+
+[33mcommit 7142a557b8a86c1b7364ad90c1df4a63b8e2afcf[m
+Author: Ivan Chavero <ichavero@chavero.com.mx>
+Date:   Wed Jul 3 00:17:27 2019 -0500
+
+    Add post-commit app
+    
+    The ch04s08 GE needs this app on the repository.
+
+[33mcommit 835453322f9fd9e27766b6ad7917472d3e12314e[m
+Author: Ravi Srinivasan <rsriniva@redhat.com>
+Date:   Tue Jul 2 17:48:16 2019 +0530
+
+    Added TODOS for GE 8.6
+
+[33mcommit f3b01722a2254c75ae9a11d008a680b210f1c33e[m
+Author: Ravi Srinivasan <rsriniva@redhat.com>
+Date:   Tue Jul 2 17:33:29 2019 +0530
+
+    Adding books microservice for GE 8.6
+
+[33mcommit 1deac4dc9b171df3f0d5dfb7a703527752176bfa[m
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Mon Jul 1 08:18:24 2019 -0400
+
+    removing bin from ignore
+
+[33mcommit 4beef1511bebf886ccb4f67c4cae0fc72bd4f341[m
+Merge: 9fd8a3b c088084
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Wed Jun 26 23:30:50 2019 -0400
+
+    Merge branch 'master' of github.com:RedHatTraining/DO288-apps
+
+[33mcommit 9fd8a3b97a6e571038995c6a344f5a862a9311a7[m
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Wed Jun 26 23:30:40 2019 -0400
+
+    adding go-hello for ch5 lab
+
+[33mcommit c08808463901886bb09dcc782959b9cbfb72972d[m
+Author: Student User <student@workstation.lab.example.com>
+Date:   Wed Jun 26 23:10:40 2019 +0000
+
+    update of hello-world-nginx image for UBI
+
+[33mcommit 9b71dda827e60a58144a0574f8af74b8868097e6[m
+Author: Ravi Srinivasan <rsriniva@users.noreply.github.com>
+Date:   Wed Jun 26 16:02:15 2019 +0530
+
+    Jenkinsfile cleanup
+
+[33mcommit 05a50b0671ecf5ed8a3339459e6e3eb8fe0479d1[m
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Tue Jun 25 16:16:59 2019 -0400
+
+    adding html-helloworld application
+
+[33mcommit c675da7379fca86ed4abbbabaa8b4c4e6a8dc437[m
+Author: Ravi Srinivasan <rsriniva@redhat.com>
+Date:   Tue Jun 25 16:32:35 2019 +0530
+
+    Added TODOS for Jenkinsfile
+
+[33mcommit 079d4e7aab6ba8d2fdc26077c0a7c5a6ba96a033[m
+Author: Ravi Srinivasan <rsriniva@redhat.com>
+Date:   Tue Jun 25 12:15:08 2019 +0530
+
+    added code for GE 8.4
+
+[33mcommit fe67a607e6eb80a9eccf2e48db31d096a6932766[m
+Author: Ravi Srinivasan <rsriniva@redhat.com>
+Date:   Fri Jun 21 10:40:58 2019 +0530
+
+    Importing todo-single app for Lab 6.5
+
+[33mcommit e347c8fb93b96be469ab1ac916faf10a1cd1688b[m
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Wed Jun 19 14:28:42 2019 -0400
+
+    adding back thorntail dependencies
+
+[33mcommit 899e2df31d18220a1f443e3a1a08338a22ca5d43[m
+Merge: 169ee80 95e8656
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Wed Jun 19 14:08:57 2019 -0400
+
+    Merge pull request #1 from imcsk8/update-java-serverhost
+    
+    Update java serverhost
+
+[33mcommit 95e8656462b4d014a28e0f1e7a160e8fa0c53838[m
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Wed Jun 19 14:06:56 2019 -0400
+
+    revert unnecessary pom changes
+
+[33mcommit 240c81958d9ed1693c367f25efdfc6ae88f28d18[m
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Wed Jun 19 10:41:15 2019 -0400
+
+    tweaking dependencies for thorntail
+
+[33mcommit ce90e852f6b259a23f18e715a2ef02952716bdf4[m
+Author: Ivan Chavero <ichavero@chavero.com.mx>
+Date:   Wed Jun 19 00:42:25 2019 -0500
+
+    ch04s04 Update java application for thorntail
+
+[33mcommit dec01143fb283d2403aed4e7d31f9e479a202e6f[m
+Author: Ivan Chavero <ichavero@chavero.com.mx>
+Date:   Tue Jun 18 16:40:15 2019 -0500
+
+    Fix swarm to thorntail migration
+
+[33mcommit 3aedfffe2f9e1ed85c3d10f6166cf650fd793a6e[m
+Author: Ivan Chavero <ichavero@chavero.com.mx>
+Date:   Mon Jun 17 11:54:48 2019 -0500
+
+    Update wildfly swarm to thorntail
+
+[33mcommit 169ee80af974987b11a5ea1ef88fadfa25cd83bd[m
+Merge: 0f618dc d038f7a
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Mon Jun 17 08:44:25 2019 -0400
+
+    Merge branch 'master' of github.com:RedHatTraining/DO288-apps
+
+[33mcommit 0f618dcf358143b9de0f427e070dcb6ed4e4e478[m
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Mon Jun 17 08:44:20 2019 -0400
+
+    adding java app
+
+[33mcommit d038f7a05211b411a856ce71364959d9c059023c[m
+Author: Student User <student@workstation.lab.example.com>
+Date:   Fri Jun 14 20:33:03 2019 +0000
+
+    rhel7-info sample converted into UBI
+
+[33mcommit 810051f5d290e69019edc0aa144cd3fa48d99017[m
+Author: Student User <student@workstation.lab.example.com>
+Date:   Wed Jun 12 20:41:46 2019 +0000
+
+    Change ch03s02 custom image to be ubi-based
+
+[33mcommit 030f3351a1da289a3f9a911929177828315250df[m
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Wed Jun 12 08:27:49 2019 -0400
+
+    Adding s2i-scripts directory
+
+[33mcommit a478662e00a38e2a1424381009c053b9787914d0[m
+Author: Fernando Lozano <flozano@redhat.com>
+Date:   Tue Jun 11 17:57:36 2019 -0300
+
+    sources for custom image from chapter 01
+
+[33mcommit a387a34d242c2bb5e70d1527c441f8f7b3f4bc6b[m
+Author: Ravi Srinivasan <rsriniva@redhat.com>
+Date:   Fri Jun 7 12:51:10 2019 +0530
+
+    Deleting all apps apart from those used in Ch1 and Ch2 labs
+
+[33mcommit 9853abc4acb88880bfc525e365676b224c918fa9[m[33m ([m[1;31morigin/apps-archive[m[33m)[m
+Author: Ravi Srinivasan <rsriniva@users.noreply.github.com>
+Date:   Tue Jun 4 14:53:05 2019 +0530
+
+    Fixed typo in Dockerfile for hello-java app
+
+[33mcommit be6db34b379e564c74c11f77db4d80e4b844b7bd[m
+Author: Ravi Srinivasan <rsriniva@redhat.com>
+Date:   Tue Jun 4 12:44:55 2019 +0530
+
+    refactored hello-java app to use thorntail
+
+[33mcommit de664729bc8ba8bb9a93a29947a1255fdeb90707[m[33m ([m[1;33mtag: OCP-4.1-1[m[33m)[m
+Author: Ravi Srinivasan <rsriniva@redhat.com>
+Date:   Tue Jun 4 10:03:40 2019 +0530
+
+    Changed app name to hello-java and deleted junk files
+
+[33mcommit b13f8d534565271f78970fd5bee09ff76a687122[m
+Author: Ravi Srinivasan <rsriniva@users.noreply.github.com>
+Date:   Mon Jun 3 12:52:06 2019 +0530
+
+    Fixed copy pasta bug in Dockerfile
+
+[33mcommit eb85bb71e9d338ef488690b4dae9f0225f854ca7[m
+Author: Ravi Srinivasan <rsriniva@users.noreply.github.com>
+Date:   Mon Jun 3 12:49:42 2019 +0530
+
+    revert registry back to registry.access.redhat.com/ubi8/ubi:8.0
+
+[33mcommit 0f812b96678503ca0ad90230d679683580605cb9[m
+Author: Ravi Srinivasan <rsriniva@users.noreply.github.com>
+Date:   Mon Jun 3 12:42:06 2019 +0530
+
+    Replaced dnf by yum and disable RHSM
+
+[33mcommit d97095794f4688075d85867179a6a47bb4fd6cb7[m
+Author: Ravi Srinivasan <rsriniva@users.noreply.github.com>
+Date:   Fri May 31 11:59:35 2019 +0530
+
+    Updated Dockerfile for hello-swarm to use UBI images
+
+[33mcommit 87287cea12099478535f7e6d0232009a2fd41f47[m
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Fri May 24 13:43:32 2019 -0400
+
+    Updating to quay.io image
+
+[33mcommit 3f9626b008a750a24b7ad2c6e00f29144a65ef38[m
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Thu May 23 13:15:43 2019 -0400
+
+    added simple README
+
+[33mcommit 497620c4d1bcb410267c56351432f87fb3aee5a4[m
+Author: Richard Allred <richardmallred@gmail.com>
+Date:   Thu May 23 13:13:16 2019 -0400
+
+    initial commit with apps from course repo
